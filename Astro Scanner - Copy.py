@@ -13,7 +13,8 @@ SOURCE_NAME = ""
 # Filtering parameters
 MIN_RELATIVE_SPEED = 0.005  
 MAX_RELATIVE_SPEED = 10.0     
-MOTION_CLEAR_DELAY = 10.0   
+MOTION_CLEAR_DELAY = 10.0 
+REQUIRED_CONSECUTIVE_FRAMES = 3
 
 def decode_base64_image(base64_string):
     if "," in base64_string:
